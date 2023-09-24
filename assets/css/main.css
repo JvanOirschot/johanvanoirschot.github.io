@@ -2889,13 +2889,16 @@ input, select, textarea {
 				height: 2.5em;
 				line-height: 2.5em;
 			}
-							
-				#header nav {
-					display: none;
-				}			
 
+			#header nav {
+				position: absolute;
+				right: 0.5em;
+				top: 0.5em;
+				height: 2.5em;
+				line-height: 2.5em;
 		}
-
+	}
+	
 /* Menu */
 
 	#wrapper {
