@@ -2829,7 +2829,16 @@ input, select, textarea {
 /* Header */
 
 	#header {
-		padding: 8em 0 0.1em 0 ;
+		position: fixed;
+		z-index: 10000;
+		left: 0;
+		top: 0;
+		width: 100%;
+		background: rgba(255, 255, 255, 0.95);
+		height: 3em;
+		line-height: 3em;
+		box-shadow: 0 0 0.15em 0 rgba(88, 88, 88, 0.4);
+		padding: 3em 0 0.1em 0 ;
 	}
 
 		#header .logo {
@@ -2860,10 +2869,11 @@ input, select, textarea {
 				}
 
 		#header nav {
-			position: fixed;
-			right: 2em;
-			top: 2em;
-			z-index: 10000;
+			position: absolute;
+			right: 0.5em;
+			top: 0.5em;
+			height: 3em;
+			line-height: 3em;
 		}
 
 			#header nav ul {
