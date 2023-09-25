@@ -2832,7 +2832,7 @@ input, select, textarea {
 		padding: 8em 0 0.1em 0 ;
 	}
 
-		#header .logo {
+		#header .logo {			
 			display: block;
 			border-bottom: 0;
 			color: inherit;
